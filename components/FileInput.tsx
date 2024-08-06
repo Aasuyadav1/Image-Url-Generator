@@ -40,12 +40,12 @@ const FileInput = (props: Props) => {
           return (
             <div
               onClick={() => open?.()}
-              className="w-full rounded-lg border-2 overflow-hidden border-dashed border-slate-400 flex items-center justify-center p-1"
+              className="w-full rounded-lg border-2 overflow-hidden border-dashed border-slate-400 flex items-center justify-center p-1 h-[200px]"
             >
               {!url && (
                 <label
                   htmlFor="file"
-                  className="cursor-pointer text-center p-4 md:p-8 h-[200px] flex flex-col items-center justify-center"
+                  className="cursor-pointer text-center p-4 md:p-8 flex flex-col items-center justify-center"
                 >
                   <svg
                     className="w-10 h-10 mx-auto"
